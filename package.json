@@ -8,10 +8,6 @@
     "dev": "node --max-old-space-size=4096 node_modules/nuxt/bin/nuxt.js",
     "build": "node --max-old-space-size=4096 node_modules/nuxt/bin/nuxt.js",
     "start": "node --max-old-space-size=4096 node_modules/nuxt/bin/nuxt.js",
-
-
-
-
     "pregenerate": "node build.js",
     "generate": "nuxt generate",
     "e2e": "cypress run",
